@@ -65,6 +65,22 @@ body{
     opacity: 1;
   }
 }
+#button{
+  padding: 15px 30px;
+  background-color: red;
+  color: white;
+  border: 2px solid black;
+  border-radius: 25px;
+  font-size: 16px;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
+#button:hover{
+  background-color: #0ef;
+  color: #000;
+  cursor: pointer;
+}
 .home{
   position: relative;
   width: 100%;
